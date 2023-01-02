@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "asistentemedicovirtual",
+  "private_key_id": "8f90ef98ec7e456888e14ee7df018249930804dd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCxTrOPty+36bcb\nrqYaCJOU7QJqRdlaVNINq2PxSdo2u7dd0YVd+p4Ob0lK9B1P9Wy8jcueFreS59oD\nQfm2eIl/g7NLCdJ7Fwmw+V5JIxDXUJ8MToG7fZ9IR6oaePyWw3dBAXQZBz8mWXPJ\nbA0clxdWiD9v/2HVZZuO8qJEBYa4ZMMUBcU5N4nZz+3NhE9JC0AuQm/zIXeyljQF\nXblaEN46FSGUAiLAr+39E8qUVisSZEiDMKVs/J8T9TGuTMl87aHbLv4od4dkfgfy\n4EEhr0L72CKlh+ts+IwaJTuNs5JuaHAP8rjwull4ywwYpYjfrutyV8qeTZ8Bi/ff\n66pBjagBAgMBAAECgf8ClvFR2+eHWqPOpQzg6UCsJXKIgpBdVyagP9BxwYmUX9+k\neZ86jc2xW+71Bohxdjs/agh4qQ8s9UrxoIhph4goRciYYIq5RMI6+6bqMEitw7GZ\n0P01ppYyRsk3gUpfp32TQnndGJAxOcgeq+vpKfrDspR7J4KJGwfsHkMK9EBJiE+I\nYvM4KrdPo/jZ4jiEAtXANZ/Q+Q47GLydgVE9PEE3swqk5UTaDJu/eTOs4bDNHXDM\nM5tc8+9iOX+iuwz3RCBaR/RY2Y/B1nmRTCSwbBnjvlE8gyr6MtrMdDJSiw8S4gjp\nC3hf0a3fgJiDJo5sT2uY5Qg6CmVjzud6bLzOPcECgYEA4uXzrnki8u4h1jwI/hon\nEw42blthaOuvf20/941CXd5eru7yRvUL9UpEGhLZ/6fd7pgaNoNUlC4zPXRxxEM/\nC8iXnDzZKy9QG572lVUfBKsbcBgBi5yhdpqP23kxoOTTvF/qwmwuAbxurxMTZuly\nsXcoKEi3BCuLy4qHFQ0yDJECgYEAyAx4DcKWao2j6giMB/5Rtzcg+5IkD6hZrF88\nhndg4uy2HFXHSueGUfHSDhBveyTEoPKkT32eSNSCgaFmDoDvQa6FBJOAeK1uNBbP\nNn4S1D7SnYTEGm3ERpneKrlljDZMpzIYmVLS/6fwYijsK0gJm0mDdLhZ+q7CXFH8\nDnPSXHECgYEAkQr6OSAKrUx4qOB7xyOkstO1C9qybEWtTEHkUDUmpabO0/i/O4jN\n+iFdY2WFoZ4HiswEhbByUr8t1i0nxJRQKxIxiJiFIsv944o8ir19NJjE02UlJ8Aa\nnxyytVPF29orWBHgmiRZTJbOEnCZSIIW5UcMjqPdCndjx9tn+pcS1WECgYBG4lQv\n3AFcZC/un3Su6GigGQKw4Ymxmp+bumtB4k8MWX/17lcdrYgkxSD/Jse5xL9/oDqk\niAhsGhDcSgpVnU4p4eL0Sie9mwZvop1t26JkXpZWhlLOYpKnyaG1VdgrpJnorJGW\n0og9Wo6M2Z9FftMYmSXhV+laME5iVBKSNGwXoQKBgQDMFHKhyYPP1reYn06VjszJ\ndK+1olfDHGdoFHuqa6mJx8LSVhxhSebTG+8JYUK8YQvTO5PRbgpATgdep36Tfbq4\nHUp0RfNP8cHgt4vgX40zP5W/KF7TMMcmNQBKEifZBNumy/W6xveqoBt9MFsiPKkw\nDeslVa+NLnjQufSca561/Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-appys@asistentemedicovirtual.iam.gserviceaccount.com",
+  "client_id": "113209769849060549049",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-appys%40asistentemedicovirtual.iam.gserviceaccount.com"
+}

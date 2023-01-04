@@ -74,7 +74,7 @@ async def apiPrecedir(sintomas: Sintomas):
     datos = transformarDatos(sintomas.sintomas)
     diagnostico = predecir(datos.loc[:, datos.columns != 'Temperatura'])[0]
     guardarRegistro(datos,diagnostico)
-    resp = {'estado':{'codigo':0,'mensaje':''},'payload': 'mensajito '+diagnostico+' mensaje de prueba'}
+    resp = {'estado':{'codigo':0,'mensaje':''},'payload': 'Diagnóstico '+diagnostico+' Se recomienda acudir a un centro médico para confirmar el diagnóstico y tratar oportunamente la enfermedad.'}
     return resp
 
 @app.get("/", status_code=201)

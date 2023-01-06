@@ -64,8 +64,26 @@ def predecir(datos):
     
 
 #Armar Api
+#app = FastAPI()
+from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI()
-    
+
+origins = [
+    "http://localhost.tiangolo.com",
+    "https://localhost.tiangolo.com",
+    "http://localhost",
+    "http://localhost:8080",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 class Sintomas(BaseModel):
     sintomas: list = []
 
@@ -74,7 +92,7 @@ async def apiPrecedir(sintomas: Sintomas):
     datos = transformarDatos(sintomas.sintomas)
     diagnostico = predecir(datos.loc[:, datos.columns != 'Temperatura'])[0]
     guardarRegistro(datos,diagnostico)
-    resp = {'estado':{'codigo':0,'mensaje':''},'payload': 'Diagnostico '+diagnostico+' Se recomienda acudir a un centro medico para confirmar el diagnostico y tratar oportunamente la enfermedad.'}
+    resp = {'estado':{'codigo':0,'mensaje':''},'payload': diagnostico +' Se recomienda acudir a un centro médico para confirmar el diagnóstico y tratar oportunamente la enfermedad.'}
     return resp
 
 @app.get("/", status_code=201)

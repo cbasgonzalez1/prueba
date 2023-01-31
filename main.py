@@ -124,3 +124,4 @@ def obtenerUltimaTemperatura():
     res = collection.document('T').get().to_dict()
     print(res)
     return res['temp']
+    

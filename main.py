@@ -3,6 +3,7 @@ import pandas as pd
 import joblib
 import uvicorn
 import json
+import requests
 from fastapi import FastAPI
 from pydantic import BaseModel
 
@@ -120,8 +121,13 @@ def guardarRegistro(datos,diagnostico):
     print(res)
 
 def obtenerUltimaTemperatura():
-    collection = db.collection('temperatura')  # create collection
-    res = collection.document('T').get().to_dict()
-    print(res)
-    return res['temp']
-    
+    # api-endpoint
+    URL = "https://asistentemedicovirtual-default-rtdb.firebaseio.com/Dispositivo/Temperatura.json"
+    r = requests.get(url = URL, params = {})
+    data = r.json()
+    print(data)
+    return data
+#    collection = db.collection('temperatura')  # create collection
+#    res = collection.document('T').get().to_dict()
+#    print(res)
+#    return res['temp']
